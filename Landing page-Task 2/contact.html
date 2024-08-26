@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Vritilife Skin Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <h1>Vritilife</h1>
+            <ul>
+                <li><a href="index.html">HOME</a> |</li>
+                <li><a href="product.html">PRODUCTS</a> |</li>
+                <li><a href="about.html">ABOUT</a> |</li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="orderForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="product">Product:</label><br>
+            <input type="text" id="product" name="product" required><br>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" required></textarea><br>
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Vritilife Skin Products. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:info@vritilife.com">info@vritilife.com</a></p>
+    </footer>
+
+    <script>
+        document.getElementById("orderForm").addEventListener("submit", function(event){
+            event.preventDefault();
+            alert("Your order has been placed successfully!");
+            window.location.href = "index.html"; 
+        });
+    </script>
+</body>
+</html>

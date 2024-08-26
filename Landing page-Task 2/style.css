@@ -1,0 +1,255 @@
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+a:hover {
+    text-decoration: none; 
+    color: #ffa07a; 
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    margin: auto;
+}
+
+.header nav h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header nav ul li {
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header nav ul li a:hover {
+    color: #ffa07a;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.header nav ul {
+    margin-left: auto; 
+}
+
+.header1{
+    background-color: #ffa07a;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+.header1 img {
+    border-radius: 50px;
+}
+.hero {
+    background-color: antiquewhite;
+    text-align: center; 
+    padding: 20px; 
+}
+
+.hero img {
+    border-radius: 50px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.hero h2, p {
+    text-align: center; 
+    margin: 0 auto; 
+    color: black;
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.product-item p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.product-item button {
+    padding: 10px 20px;
+    background-color: #ffa07a;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-item button:hover {
+    background-color: #ff7f50;
+}
+
+
+.about {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about .team {
+    margin-top: 40px;
+}
+
+.about .team h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.about .team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.about .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about .team-member h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.about .team-member p {
+    color: #666;
+}
+
+.contact-form {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff8dc;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ffa07a;
+    border: none;
+    color:white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #ff7f50;
+}
+
+footer {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #333; 
+    color: white; 
+}
+
+footer p:hover{
+    margin: 5px 0; 
+    color: #ffa07a;}
